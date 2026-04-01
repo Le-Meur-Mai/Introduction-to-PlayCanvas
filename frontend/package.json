@@ -1,6 +1,7 @@
 {
   "name": "react-playcanvas-app",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -8,7 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "playcanvas": "^1.65.0",
+    "@playcanvas/react": "latest",
+    "playcanvas": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
